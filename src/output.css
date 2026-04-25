@@ -195,8 +195,23 @@
   .table {
     display: table;
   }
+  .h-\[0px\] {
+    height: 0px;
+  }
   .h-\[50px\] {
     height: 50px;
+  }
+  .h-\[60px\] {
+    height: 60px;
+  }
+  .h-\[70px\] {
+    height: 70px;
+  }
+  .h-\[80px\] {
+    height: 80px;
+  }
+  .h-\[90px\] {
+    height: 90px;
   }
   .h-\[200px\] {
     height: 200px;
@@ -225,8 +240,17 @@
   .h-\[750px\] {
     height: 750px;
   }
+  .w-\[0px\] {
+    width: 0px;
+  }
   .w-\[000px\] {
     width: 000px;
+  }
+  .w-\[30px\] {
+    width: 30px;
+  }
+  .w-\[40px\] {
+    width: 40px;
   }
   .w-\[100px\] {
     width: 100px;
@@ -240,8 +264,32 @@
   .w-\[200px\] {
     width: 200px;
   }
+  .w-\[210px\] {
+    width: 210px;
+  }
+  .w-\[240px\] {
+    width: 240px;
+  }
+  .w-\[250px\] {
+    width: 250px;
+  }
+  .w-\[280px\] {
+    width: 280px;
+  }
+  .w-\[290px\] {
+    width: 290px;
+  }
   .w-\[300px\] {
     width: 300px;
+  }
+  .w-\[320px\] {
+    width: 320px;
+  }
+  .w-\[340px\] {
+    width: 340px;
+  }
+  .w-\[360px\] {
+    width: 360px;
   }
   .w-\[370px\] {
     width: 370px;
@@ -251,6 +299,12 @@
   }
   .w-\[400px\] {
     width: 400px;
+  }
+  .w-\[420px\] {
+    width: 420px;
+  }
+  .w-\[440px\] {
+    width: 440px;
   }
   .w-\[500px\] {
     width: 500px;
@@ -303,6 +357,9 @@
   .w-\[2000px\] {
     width: 2000px;
   }
+  .w-\[3280px\] {
+    width: 3280px;
+  }
   .w-\[5000px\] {
     width: 5000px;
   }
@@ -339,6 +396,12 @@
   .gap-15 {
     gap: calc(var(--spacing) * 15);
   }
+  .gap-18 {
+    gap: calc(var(--spacing) * 18);
+  }
+  .gap-19 {
+    gap: calc(var(--spacing) * 19);
+  }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
@@ -362,6 +425,9 @@
   }
   .gap-55 {
     gap: calc(var(--spacing) * 55);
+  }
+  .gap-120 {
+    gap: calc(var(--spacing) * 120);
   }
   .rounded-\[15px\] {
     border-radius: 15px;
@@ -424,6 +490,9 @@
   }
   .bg-\[\#141414\] {
     background-color: #141414;
+  }
+  .bg-\[\#191919\] {
+    background-color: #191919;
   }
   .bg-\[black\] {
     background-color: black;
@@ -491,6 +560,9 @@
   }
   .text-\[\#FFFFFFCC\] {
     color: #FFFFFFCC;
+  }
+  .text-\[40p\] {
+    color: 40p;
   }
   .text-\[w\] {
     color: w;
