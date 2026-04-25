@@ -165,8 +165,17 @@
   .m-auto {
     margin: auto;
   }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
   }
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
@@ -198,6 +207,12 @@
   .h-\[480px\] {
     height: 480px;
   }
+  .w-\[000px\] {
+    width: 000px;
+  }
+  .w-\[100px\] {
+    width: 100px;
+  }
   .w-\[150px\] {
     width: 150px;
   }
@@ -225,6 +240,9 @@
   .w-\[1000px\] {
     width: 1000px;
   }
+  .w-\[1100px\] {
+    width: 1100px;
+  }
   .w-\[1200px\] {
     width: 1200px;
   }
@@ -249,6 +267,9 @@
   .w-\[2000px\] {
     width: 2000px;
   }
+  .w-\[5000px\] {
+    width: 5000px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -267,8 +288,14 @@
   .justify-evenly {
     justify-content: space-evenly;
   }
+  .gap-3 {
+    gap: calc(var(--spacing) * 3);
+  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
+  }
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
@@ -290,6 +317,12 @@
   }
   .rounded-\[20px\] {
     border-radius: 20px;
+  }
+  .rounded-\[25px\] {
+    border-radius: 25px;
+  }
+  .rounded-\[30px\] {
+    border-radius: 30px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -332,6 +365,12 @@
   .bg-\[\#0A84FF\] {
     background-color: #0A84FF;
   }
+  .bg-\[\#2E2E2E\] {
+    background-color: #2E2E2E;
+  }
+  .bg-\[\#141414\] {
+    background-color: #141414;
+  }
   .bg-\[black\] {
     background-color: black;
   }
@@ -347,6 +386,15 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+  .pb-10 {
+    padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
+  }
   .text-center {
     text-align: center;
   }
@@ -359,6 +407,9 @@
   .text-\[25px\] {
     font-size: 25px;
   }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
   .text-\[40px\] {
     font-size: 40px;
   }
@@ -368,9 +419,15 @@
   .text-\[55px\] {
     font-size: 55px;
   }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-\[\#0A84FF\] {
+    color: #0A84FF;
   }
   .text-\[\#FFFFFFCC\] {
     color: #FFFFFFCC;
@@ -390,6 +447,11 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .\*\:bg-\[\#141414\] {
+    :is(& > *) {
+      background-color: #141414;
+    }
   }
 }
 @property --tw-border-style {
