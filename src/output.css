@@ -216,6 +216,9 @@
   .h-\[90px\] {
     height: 90px;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[200px\] {
     height: 200px;
   }
@@ -251,6 +254,12 @@
   }
   .h-\[570px\] {
     height: 570px;
+  }
+  .h-\[590px\] {
+    height: 590px;
+  }
+  .h-\[600px\] {
+    height: 600px;
   }
   .h-\[650px\] {
     height: 650px;
@@ -456,11 +465,23 @@
   .gap-30 {
     gap: calc(var(--spacing) * 30);
   }
+  .gap-32 {
+    gap: calc(var(--spacing) * 32);
+  }
+  .gap-34 {
+    gap: calc(var(--spacing) * 34);
+  }
   .gap-35 {
     gap: calc(var(--spacing) * 35);
   }
+  .gap-36 {
+    gap: calc(var(--spacing) * 36);
+  }
   .gap-40 {
     gap: calc(var(--spacing) * 40);
+  }
+  .gap-43 {
+    gap: calc(var(--spacing) * 43);
   }
   .gap-45 {
     gap: calc(var(--spacing) * 45);
@@ -650,6 +671,21 @@
       display: flex;
     }
   }
+  .lg\:h-\[50px\] {
+    @media (width >= 64rem) {
+      height: 50px;
+    }
+  }
+  .lg\:h-\[400px\] {
+    @media (width >= 64rem) {
+      height: 400px;
+    }
+  }
+  .lg\:h-\[570px\] {
+    @media (width >= 64rem) {
+      height: 570px;
+    }
+  }
   .lg\:h-\[700px\] {
     @media (width >= 64rem) {
       height: 700px;
@@ -658,6 +694,46 @@
   .lg\:w-\[100px\] {
     @media (width >= 64rem) {
       width: 100px;
+    }
+  }
+  .lg\:w-\[210px\] {
+    @media (width >= 64rem) {
+      width: 210px;
+    }
+  }
+  .lg\:w-\[240px\] {
+    @media (width >= 64rem) {
+      width: 240px;
+    }
+  }
+  .lg\:w-\[250px\] {
+    @media (width >= 64rem) {
+      width: 250px;
+    }
+  }
+  .lg\:w-\[290px\] {
+    @media (width >= 64rem) {
+      width: 290px;
+    }
+  }
+  .lg\:w-\[320px\] {
+    @media (width >= 64rem) {
+      width: 320px;
+    }
+  }
+  .lg\:w-\[380px\] {
+    @media (width >= 64rem) {
+      width: 380px;
+    }
+  }
+  .lg\:w-\[400px\] {
+    @media (width >= 64rem) {
+      width: 400px;
+    }
+  }
+  .lg\:w-\[530px\] {
+    @media (width >= 64rem) {
+      width: 530px;
     }
   }
   .lg\:w-\[700px\] {
@@ -688,6 +764,21 @@
   .lg\:justify-center {
     @media (width >= 64rem) {
       justify-content: center;
+    }
+  }
+  .lg\:gap-15 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 15);
+    }
+  }
+  .lg\:gap-18 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 18);
+    }
+  }
+  .lg\:gap-19 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 19);
     }
   }
   .lg\:gap-35 {
