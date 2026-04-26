@@ -831,6 +831,11 @@
       width: 700px;
     }
   }
+  .lg\:w-\[900px\] {
+    @media (width >= 64rem) {
+      width: 900px;
+    }
+  }
   .lg\:w-\[1100px\] {
     @media (width >= 64rem) {
       width: 1100px;
@@ -879,6 +884,11 @@
   .lg\:p-7 {
     @media (width >= 64rem) {
       padding: calc(var(--spacing) * 7);
+    }
+  }
+  .lg\:text-\[60px\] {
+    @media (width >= 64rem) {
+      font-size: 60px;
     }
   }
 }
