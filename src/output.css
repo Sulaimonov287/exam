@@ -229,6 +229,9 @@
   .h-\[0px\] {
     height: 0px;
   }
+  .h-\[50pc\] {
+    height: 50pc;
+  }
   .h-\[50px\] {
     height: 50px;
   }
@@ -303,6 +306,9 @@
   }
   .w-\[0px\] {
     width: 0px;
+  }
+  .w-\[00px\] {
+    width: 00px;
   }
   .w-\[000px\] {
     width: 000px;
@@ -466,11 +472,17 @@
   .justify-evenly {
     justify-content: space-evenly;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -724,6 +736,9 @@
   .text-\[\#FFFFFFCC\] {
     color: #FFFFFFCC;
   }
+  .text-\[30p\] {
+    color: 30p;
+  }
   .text-\[40p\] {
     color: 40p;
   }
@@ -732,6 +747,9 @@
   }
   .text-\[wh\] {
     color: wh;
+  }
+  .text-\[whi\] {
+    color: whi;
   }
   .text-\[white\] {
     color: white;
